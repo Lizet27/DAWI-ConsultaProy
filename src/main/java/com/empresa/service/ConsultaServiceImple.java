@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.empresa.entity.Consultar;
+import com.empresa.entity.Consulta;
 import com.empresa.respository.ConsultaRepository;
 
 @Service
@@ -15,12 +15,12 @@ public class ConsultaServiceImple implements ConsultaService {
 	private ConsultaRepository repository;
 
 	@Override
-	public Consultar insertaConsulta(Consultar obj) {
+	public Consulta insertaConsulta(Consulta obj) {
 		return repository.save(obj);
 	}
 
 	@Override
-	public List<Consultar> listaconsulta() {
+	public List<Consulta> listaconsulta() {
        return repository.findAll();
 	}
 
