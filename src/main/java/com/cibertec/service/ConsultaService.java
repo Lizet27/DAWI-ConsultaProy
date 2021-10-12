@@ -1,8 +1,8 @@
-package com.empresa.service;
+package com.cibertec.service;
 
 import java.util.List;
 
-import com.empresa.entity.Consulta;
+import com.cibertec.entity.Consulta;
 
 public interface ConsultaService {
 	

@@ -1,4 +1,4 @@
-package com.empresa.controller;
+package com.cibertec.controller;
 
 import java.util.HashMap;
 import java.util.List;
@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.empresa.entity.Consulta;
-import com.empresa.service.ConsultaService;
-import com.empresa.util.Constantes;
+import com.cibertec.entity.Consulta;
+import com.cibertec.service.ConsultaService;
+import com.cibertec.util.Constantes;
 
 @RestController
 @RequestMapping("/rest/consulta")

@@ -1,12 +1,12 @@
-package com.empresa.service;
+package com.cibertec.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.empresa.entity.Consulta;
-import com.empresa.respository.ConsultaRepository;
+import com.cibertec.entity.Consulta;
+import com.cibertec.respository.ConsultaRepository;
 
 @Service
 public class ConsultaServiceImple implements ConsultaService {

@@ -1,4 +1,4 @@
-package com.empresa.util;
+package com.cibertec.util;
 
 public class Constantes {
 	
